@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{023923DF-0160-48E3-A27B-B23161928F60}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SimasoftCorp.DesafioStone.Dominio</RootNamespace>
+    <AssemblyName>SimasoftCorp.DesafioStone.Dominio</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Financeiro\Contratos\Repositorio\IFinanceiroRepositorio.cs" />
+    <Compile Include="Financeiro\Cliente.cs" />
+    <Compile Include="Financeiro\Cobranca.cs" />
+    <Compile Include="Financeiro\Contratos\Servico\IFinanceiroServicoDominio.cs" />
+    <Compile Include="Financeiro\Servico\FinanceiroServicoDominio.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimasoftCorp.DesafioStone.Dominio.KernelCompartilhado\SimasoftCorp.DesafioStone.Dominio.NucleoCompartilhado.Comum.csproj">
+      <Project>{55BC4EE9-CAB6-4916-94A7-B7BC16126EFA}</Project>
+      <Name>SimasoftCorp.DesafioStone.Dominio.NucleoCompartilhado.Comum</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimasoftCorp.DesafioStone.Dominio.NucleoCompartilhado\SimasoftCorp.DesafioStone.Dominio.NucleoCompartilhado.csproj">
+      <Project>{0DF801B0-EFD8-4D9C-85F8-E2769D13C3B6}</Project>
+      <Name>SimasoftCorp.DesafioStone.Dominio.NucleoCompartilhado</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
