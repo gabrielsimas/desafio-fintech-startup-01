@@ -1,4 +1,4 @@
-> ## *Gabriel do passado (06/2018 - Domingo - 1735 - Eu ainda morava na favela! Com certeza outros homens da mesma idade que eu estavam jogando bola no campo, fazendo churrasco ou bebendo cerveja se preparando para mais uma semana dificil e eu estava lá: Estudando! Eu tinha um plano e ele continua, até hoje, em execução):*
+> ## *Gabriel do passado (06/2018 - Domingo - 1735 - Eu ainda morava na favela! Com certeza outros homens da mesma idade que eu estavam jogando bola no campo, fazendo churrasco ou bebendo cerveja se preparando para mais uma semana dificil e eu estava lá: Estudando! Eu tinha um plano de vida e ele continua, até hoje, em execução):*
 > # desafio-fintech-startup-01
 
 > # Basta baixar a solution e executar a mesma.
