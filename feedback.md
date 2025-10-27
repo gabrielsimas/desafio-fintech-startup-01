@@ -1,4 +1,4 @@
-# Feedback do Código entregue aa 7 anos atrás na íntegra:
+# Feedback do Código entregue há 7 anos atrás na íntegra:
 #### Achamos sensacional seu interesse em vir trabalhar com a gente, ficamos realmente felizes! Mas decidimos não seguir para as outras etapas do nosso processo. Nossa análise vai além do tecniquês... A gente vê também se a cultura, valores e visão de futuro da pessoa combinam com os nossos e parece que alguma coisa não deu match agora entre nós 😥
 #### Como a transparência é um dos nossos pilares, a ideia é te passar o que identificamos nesse período, para você ter em mente:
 
