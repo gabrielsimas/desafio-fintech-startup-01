@@ -1,0 +1,1 @@
+global using Simasoft.Desafios.Fintech.Tdd.Comum;
